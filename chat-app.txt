@@ -1,0 +1,19 @@
+cd app_name
+------ Backend ------
+
+mkdir backend
+- cd backend:
+- django-admin startproject app
+- cd app
+- python manage.py runserver
+
+for admin user -> python manage.py createsuperuser
+
+**************
+on_delete=models.CASCADE : nesne silindiğinde tüm özelliklerini db den sil
+
+----- Frontend ------
+- npx create-react-app frontend
+- cd frontend
+- npm start
+
